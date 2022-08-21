@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
 
 passport.use(new GoogleStrategy({
   clientID: 'Iv1.451671289030f210',
-  clientSecret: 'SHA256:XgF3HtCCrxNvT4cWNsc+YpGFo6JidyCKoRySIB3T4R0=',
+  clientSecret: '97d5b6537a2be9ef49011330ec0a4c78d4578819',
   callbackURL: `${process.env.BASEURL}/auth/google/callback`,
   passReqToCallback: true
 },
